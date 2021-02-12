@@ -1,0 +1,25 @@
+<br><br><br>
+<ion-content>
+  <ion-row>  
+  <ion-col col-4>
+  <ion-card style="border:#ffc400ef 1px solid;">
+  <ion-card-content class="card-content" >
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+    <div style="text-align: center;">
+    <ion-icon name="person-circle-outline" color='warning'></ion-icon></div>
+    <ion-input [(ngModel)]="firstname"   placeholder="First Name..." ></ion-input>
+      <ion-input [(ngModel)]="lastname"  placeholder="Last Name..."  ></ion-input>
+      <ion-input [(ngModel)]="phonenumber"  placeholder="Contact Number..."  ></ion-input>
+      <ion-input [(ngModel)]="Email"   placeholder="E-mail..." ></ion-input>
+      <ion-input [(ngModel)]="Password"  placeholder="Password..."  ></ion-input>
+      <ion-button (click)="signUp()" expand="block" color="warning">Sign-up</ion-button>
+      <ion-button routerLink="/login" expand="block" color="dark">Sign-in</ion-button>
+  </ion-card-content>
+  </ion-card>
+  </ion-col>
+  </ion-row>

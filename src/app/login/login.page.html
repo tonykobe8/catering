@@ -1,0 +1,22 @@
+<br><br><br>
+<ion-content>
+  <ion-row>  
+  <ion-col col-4>
+  <ion-card style="border:#ffc400ef 1px solid;">
+  <ion-card-content class="card-content" >
+<ion-header>
+  <ion-toolbar color="warning">
+    <div item-content style="display: flex; justify-content: space-between; width: 80%"> 
+    <ion-title >Login</ion-title><a routerLink="/register">Sign-up</a></div>
+  </ion-toolbar>
+</ion-header>
+<div style="text-align: center;">
+        <ion-icon name="person-circle-outline" color='warning'></ion-icon></div>
+      <ion-input [(ngModel)]="Email"   placeholder="E-mail..." ></ion-input>
+      <ion-input [(ngModel)]="Password"  placeholder="Password..."  ></ion-input>
+     <ion-button (click)="login()" expand="block" color="warning">Sign-in</ion-button>
+     <div style="text-align: center;">
+    <label>Forgot Password?</label><a routerLink="/password">Reset</a>
+</div>
+</ion-card-content></ion-card>
+</ion-col></ion-row>
