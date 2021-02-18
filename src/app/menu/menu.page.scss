@@ -1,28 +1,29 @@
 a{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20;
+    font-size: 24;
     color: black;}
     p{
     background-color: orange;
-    line-height: 32px;
-}
+    line-height: 34px;}
 ion-label{
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-}
+    font-style: italic;}
 
 label{
     font-family: 'Times New Roman', Times, serif;
     color:black;
-    font-size: 12px;
-   
+    font-size: 14px;  
 }ion-title{
-    font-family: 'Times New Roman', Times, serif;
-}img{
+    font-family: 'Times New Roman', Times, serif;}
+ion-button{
+    height: 100px;
+    width:180px;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;}
+    ion-list{
+        background-color:black;
+        
+    }
     
-margin:1px;
-width:156px;
-height:150px;
-border-radius: 8px;
-}
-
+ 
+    

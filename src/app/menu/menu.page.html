@@ -3,16 +3,32 @@
       <ion-title>Home</ion-title>
     </ion-toolbar>
   </ion-header>
-<ion-content ><p>
-&nbsp;&nbsp;<a routerLink='/about'>About |</a>&nbsp;<a routerLink='/contact'>Contact  |</a>
-&nbsp;&nbsp;<a routerLink='/gallery'>Gallaries |</a> 
-&nbsp;&nbsp;<a routerLink='/request'>Request |</a> 
-&nbsp;&nbsp;<ion-icon name="person-outline" color="default" size="small" routerLink='/login'></ion-icon></p>
-<ion-label>LCTS LifeStyle Events : That's The Things That Matter...</ion-label><br><br>
-<img src="assets/event-decor.jpg" style="border-radius: 8px;">
-<img src="assets/images (1).jpg" >
-<div style=" text-align:center">
-<img src="assets/hero-img.jpg" style="width: 500px;"></div>
-</ion-content>
-<ion-icon name="arrow-back" routerLink=""></ion-icon><label>Back</label>
+<ion-content ><p style="text-align: right;">
+  &nbsp;&nbsp;&nbsp;<a routerLink='/about'>About  </a>&nbsp;|
+  &nbsp;&nbsp;&nbsp;<a routerLink='/contact'>Contact  </a>&nbsp;|
+
+&nbsp;&nbsp;&nbsp;<ion-icon name="person-outline" color="default" style="font-size:large" routerLink='/login'>
+</ion-icon></p>
+<ion-label>LCTS LIFESTYLE Events : That's The Things That Matter...</ion-label><br><br>
+<img src="assets/event-decor.jpg" style="border-radius: 1px;"><br><br>
+
+<div item-content style="display: flex; justify-content: space-between;"> 
+  <ion-button color="warning" routerLink='/gallery'>
+  <ion-icon name="restaurant-outline" color="primary" style="font-size: xx-large;"></ion-icon>
+  Gallaries</ion-button>
+  <ion-button  routerLink='/request'  color="dark" >
+  <ion-icon name="create-outline" color="primary" style="font-size: xx-large;"></ion-icon>
+  Request</ion-button>
+</div><br>
+<ion-list></ion-list> <div style="text-align: center;">
+<p style="color: cornsilk;"><a routerLink='/about'><ion-icon name="gift-outline" color="danger" 
+style="font-size: x-large;">
+</ion-icon>
+  Sign-up</a> And Get 15% off</p></div>
+
+</ion-content><div style="text-align: center;">
+<ion-icon name="arrow-back" routerLink=""  style="font-size: x-large;"></ion-icon></div>
+   
+
+
 
