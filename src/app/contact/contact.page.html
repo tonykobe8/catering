@@ -1,9 +1,35 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>contact</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
-
-</ion-content>
+  <ion-row>  
+  <ion-col col-4><br>
+  <ion-card style="border: 1px solid;">
+  <ion-card-content class="card-content" >
+    <ion-list>
+    <ion-header><ion-toolbar color= "warning">
+      <div item-content style="display: flex; justify-content: space-between; width: 100%"> 
+            <ion-icon name="arrow-back" routerLink="/about" color="light" ></ion-icon> 
+            <ion-title style="text-align: center;">Contact Us</ion-title>
+            <ion-icon name="arrow-forward" routerLink="/gallery" color="light"></ion-icon> </div>
+      </ion-toolbar></ion-header>
+      <ion-item></ion-item>
+      <ion-item><p><ion-icon name="navigate-circle-outline"color="primary"></ion-icon>&nbsp;7th Street . Midrand . 1632</p>
+      </ion-item>
+      <ion-item><p><ion-icon name="mail-outline"></ion-icon>&nbsp;info@LCTScatering.co.za</p> </ion-item> 
+      <ion-item><p><ion-icon name="call-outline"></ion-icon>&nbsp;0115646952 | 0786952465</p>
+      </ion-item></ion-list>
+     
+      <fieldset style="border:#ffc400ef 1px solid;"><legend>
+      &nbsp;&nbsp;&nbsp;&nbsp;<ion-label color="warning">Enquiries</ion-label></legend>
+      <ion-input [(ngModel)]="firstName"  placeholder="First Name & Surname"  ></ion-input>
+      <ion-input [(ngModel)]="Email"   placeholder="E-mail..." ></ion-input>
+      <ion-textarea [(ngModel)]="message"   placeholder="Message..." style="height: 70px;" ></ion-textarea>
+      <ion-button  expand="block" color="warning">Submit</ion-button> </fieldset> 
+</ion-card-content></ion-card></ion-col></ion-row>
+<ion-toolbar color="none">
+<div color="warning" style="text-align: center;">
+<ion-icon name="logo-twitter" color='secondary'></ion-icon>
+&nbsp;&nbsp;
+<ion-icon name="logo-linkedin" color="primary"></ion-icon>
+&nbsp;&nbsp;
+<ion-icon name="logo-facebook" color="tertiary"></ion-icon></div>
+</ion-toolbar>

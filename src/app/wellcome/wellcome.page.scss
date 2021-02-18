@@ -1,19 +1,33 @@
-ion-label{
+ion-title{font-family: 'Times New Roman', Times, serif;}
+ion-card {
+    height: 490px;
+    width: 308px;
+    margin:auto;
+    border-radius: 0px !important;
+}
+    ion-label{
+    font-family: 'Times New Roman', Times, serif;    
+}ion-button{
+height: 22px;
+font-size: 12px;
+font-family: 'Times New Roman', Times, serif;
+}ion-label{
     font-family: 'Times New Roman', Times, serif;
     color: orange;
-    font-size: 24px;
+    font-size: 18px;
     font-style: bold
 }
-a{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color:black;
+ion-item{
+    width: 270px;  
 }
-label{
-    font-family: 'Times New Roman', Times, serif;
-    color:black;
-    font-size: 14px;
-   
-
-}p{ background-color: orange;
-line-height: 32px;}
+img{
+    width:300px;
+    height:150px;
+    background-size: cover;
+    }
+    a{
+        color:black ;
+    }
+    p{ background-color: orange;
+        line-height: 32px;}
+        
