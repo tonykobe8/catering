@@ -1,7 +1,6 @@
-ion-title,a{
+ion-title{
     font-family: 'Times New Roman', Times, serif;
-}
-ion-label{
+}ion-label{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     color:brown
@@ -11,13 +10,15 @@ ion-label{
 p{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 18px;
-    color:brown;
-    background-color: rgb(226, 226, 247);
-    line-height: 34px;
+    color:brown
 }img{
 display: block;
 margin: auto;
 width:250px;
 height:150px;
 background-size: cover;
-}
+}ion-card {
+    height: 260px;
+    width: 250px;
+    margin:auto
+    }

@@ -1,9 +1,32 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>request</ion-title>
+  <ion-toolbar color="warning">
+    <ion-title>Request</ion-title>
   </ion-toolbar>
 </ion-header>
-
+<br><br>
 <ion-content>
-
+  <fieldset style="border:#ffc400ef 1px solid;"><legend>
+    &nbsp;&nbsp;&nbsp;&nbsp;<ion-label color="warning">Categories</ion-label></legend>
+  <ion-checkbox></ion-checkbox><ion-label>&nbsp;Decor</ion-label><br><br>
+  <ion-checkbox></ion-checkbox><ion-label>&nbsp;Foods</ion-label><br>
+  <ion-item>
+ <ion-label>&nbsp;Event Type</ion-label>
+ <ion-select   >
+  <ion-select-option value="weeding">weeding</ion-select-option>
+    <ion-select-option value="BirthDayparties">Birth Day</ion-select-option>
+</ion-select></ion-item><ion-list></ion-list>
+</fieldset>
+  <p> More options</p>
+  <ion-list></ion-list><ion-item>
+  <ion-icon name="add-circle-outline" color='primary'></ion-icon>
+  <ion-label routerLink="/register" color="primary">&nbsp;New account</ion-label>
+  </ion-item>
+  <ion-list></ion-list><ion-item>
+  <ion-icon name="person-circle-outline" color='primary' style="font-size:x-large"></ion-icon>
+  <ion-label routerLink="/register" color="primary">&nbsp;Sign-in </ion-label></ion-item>
+  <ion-list></ion-list><ion-item>
+    <ion-icon name="restaurant-outline" color="primary" style="font-size:x-large;"></ion-icon>
+    <ion-label routerLink="/gallery" color="primary">&nbsp;Gallery </ion-label></ion-item>
+    <ion-list></ion-list>
 </ion-content>
+<ion-button routerLink="/menu" expand="outline">back to Home</ion-button>

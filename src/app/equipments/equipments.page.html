@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Equipments</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-label><i>This is what we do : </i></ion-label>
+  <br>
+  <ion-card *ngFor="let weed of weeding">
+    <img src="{{weed.image}}"  ><div style=" text-align:center">
+    <P>{{weed.dscrpt}}<br>{{weed.price}}
+    <ion-item>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<ion-button style="height:25px ;width:100px ;text-align: center;">preview</ion-button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ion-icon name="cart-outline" color="success" style="font-size: x-large;"></ion-icon></ion-item></P></div>
+     </ion-card>
+ 
+  
+</ion-content>
+<div style="text-align:center;">
+  <ion-icon name="arrow-back" routerLink="/gallery" style="font-size:x-large" ></ion-icon></div>
