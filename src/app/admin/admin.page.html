@@ -1,0 +1,21 @@
+
+<ion-content>
+  <ion-row>  
+  <ion-col col-4>
+  <ion-card style="border:black 1px solid;height: 600px;"><ion-card-content class="card-content" ><br>
+    <ion-list></ion-list>
+<h1 style="text-align: center; color:black;">CLTS LIFESTYLE EVENTS [ ADMIN ]</h1>
+<ion-list></ion-list>
+<br><br>
+<ion-input [(ngModel)]="Email"   placeholder="E-mail..." color="primary" ></ion-input>
+      <ion-input [(ngModel)]="Password"  placeholder="Password..."  color="primary" ></ion-input>
+     <ion-button (click)="login()" expand="block" color="warning" style="height: 30px;">Sign-in</ion-button>
+     <div style="text-align: center;">
+     or
+     </div>
+     <div style="text-align: center;">
+     <ion-button   color="dark"  style="height: 30px;width: 180px;">Sign-up</ion-button><br>
+    <label>Forgot Password?</label><a routerLink="/password">Reset</a>
+</div>
+</ion-card-content></ion-card>
+</ion-col></ion-row>

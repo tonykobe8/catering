@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Foods-page</ion-title>
+  </ion-toolbar>
+</ion-header><br>
+
+<ion-content>
+
+  <ion-input [(ngModel)]="food_Name"   placeholder="Name"  color="primary"></ion-input>
+  <ion-input [(ngModel)]="food_Descrpt"  placeholder="Description"  color="primary" ></ion-input>
+  <ion-input [(ngModel)]="food_price"  placeholder="Price"  color="primary" ></ion-input>
+ <label style="text-align: center;font-family: 'Times New Roman', Times, serif;color:blue;" >
+  &nbsp;Image</label>
+<ion-input [(ngModel)]="Decor_picture"  
+  style=" border: 1px solid #0a0a0a;width: 200px;height: 25px;" ></ion-input>
+  <ion-button color="dark" style="height: 30px;width:200px;">save</ion-button>
+  <div style="text-align: center;">
+    <ion-label style="font-size:xx-large;font-family: 'Times New Roman', Times, serif;color:brown;">
+   foods Updates</ion-label></div>
+   <ion-button color="primary" style="height: 30px;width:110px;">
+  <ion-icon name="pencil-outline" color="dark" size="small"></ion-icon> 
+  &nbsp;edit
+</ion-button>
+  <ion-button color="dark" style="height: 30px;width:110px;">
+  <ion-icon name="trash-outline" color="danger"  size="small" ></ion-icon>
+  &nbsp;delete
+</ion-button>
+</ion-content>
+<div style="text-align: center;">
+  <ion-icon name="arrow-back" routerLink="/administrator"  style="font-size: x-large;"></ion-icon></div>

@@ -64,6 +64,26 @@ const routes: Routes = [
     path: 'equipments',
     loadChildren: () => import('./equipments/equipments.module').then( m => m.EquipmentsPageModule)
   },
+  {
+    path: 'admin',
+    loadChildren: () => import('./admin/admin.module').then( m => m.AdminPageModule)
+  },
+  {
+    path: 'administrator',
+    loadChildren: () => import('./administrator/administrator.module').then( m => m.AdministratorPageModule)
+  },
+  {
+    path: 'decorpage',
+    loadChildren: () => import('./decorpage/decorpage.module').then( m => m.DecorpagePageModule)
+  },
+  {
+    path: 'foodspage',
+    loadChildren: () => import('./foodspage/foodspage.module').then( m => m.FoodspagePageModule)
+  },
+  {
+    path: 'equipmentspage',
+    loadChildren: () => import('./equipmentspage/equipmentspage.module').then( m => m.EquipmentspagePageModule)
+  },
 ];
 
 @NgModule({
